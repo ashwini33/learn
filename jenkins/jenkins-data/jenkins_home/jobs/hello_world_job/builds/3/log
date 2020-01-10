@@ -1,0 +1,9 @@
+Started by user [8mha:////4J1iVFDMwF8xseIWwpP9ZTc6CI/LDRTgOPtJNXqXwrmyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mjenkins admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/hello_world_job
+[hello_world_job] $ /bin/sh -xe /tmp/jenkins2668227856227394712.sh
++ whoami
++ date
++ echo Hello jenkins current date and time is Sun Dec 29 19:00:02 UTC 2019
+Hello jenkins current date and time is Sun Dec 29 19:00:02 UTC 2019
+Finished: SUCCESS

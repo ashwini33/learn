@@ -1,0 +1,15 @@
+Started by user [8mha:////4J1iVFDMwF8xseIWwpP9ZTc6CI/LDRTgOPtJNXqXwrmyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mjenkins admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/check_ping
+[check_ping] $ /bin/sh -xe /tmp/jenkins5598797982458894888.sh
++ ping -c 4 remote_host
+PING remote_host (172.18.0.3) 56(84) bytes of data.
+64 bytes from remote_host.jenkins-data_net (172.18.0.3): icmp_seq=1 ttl=64 time=0.131 ms
+64 bytes from remote_host.jenkins-data_net (172.18.0.3): icmp_seq=2 ttl=64 time=0.155 ms
+64 bytes from remote_host.jenkins-data_net (172.18.0.3): icmp_seq=3 ttl=64 time=0.138 ms
+64 bytes from remote_host.jenkins-data_net (172.18.0.3): icmp_seq=4 ttl=64 time=0.144 ms
+
+--- remote_host ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3074ms
+rtt min/avg/max/mdev = 0.131/0.142/0.155/0.008 ms
+Finished: SUCCESS
